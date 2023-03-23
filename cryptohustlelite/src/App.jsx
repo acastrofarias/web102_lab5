@@ -70,6 +70,8 @@ function App() {
                 symbol={list.Data[coin].Symbol}
               />
               : null
+
+              
           )}
         </ul>
       </div>
