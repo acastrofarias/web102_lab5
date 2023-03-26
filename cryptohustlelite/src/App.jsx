@@ -23,9 +23,7 @@ function App() {
     } else {
       setFilteredResults(Object.keys(list.Data));
     }
-
-    
-  };
+  }
   
   const fetchAllCoinData = async () => {
     const response = await fetch( 
